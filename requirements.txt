@@ -1,0 +1,12 @@
+faiss_gpu==1.7.2
+folium==0.20.0
+geopandas==1.0.1
+matplotlib==3.10.9
+numpy==1.24.4
+pandas==3.0.3
+pyproj==3.6.1
+scikit_learn==1.9.0
+Shapely==2.1.2
+torch==2.8.0
+tqdm==4.67.1
+transformers==4.57.1

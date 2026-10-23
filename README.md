@@ -108,13 +108,19 @@ We utilized the [MiniMind Model](https://github.com/jingyaogong/minimind) as the
 ## 📚 Citations
 
 ```bibtex
-@misc{gan2026sketchsemantickeypointconditioning,
-      title={SKETCH: Semantic Key-Point Conditioning for Long-Horizon Vessel Trajectory Prediction}, 
-      author={Linyong Gan and Zimo Li and Wenxin Xu and Xingjian Li and Jianhua Z. Huang and Enmei Tu and Shuhang Chen},
-      year={2026},
-      eprint={2601.18537},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2601.18537}, 
+@InProceedings{pmlr-v306-gan26b,
+  title = 	 {{SKETCH}: Semantic Key-Point Conditioning for Long-Horizon Vessel Trajectory Prediction},
+  author =       {Gan, Linyong and Li, Zimo and Xu, Wenxin and Xingjian, Li and Huang, Jianhua Z. and Tu, Enmei and Chen, Shuhang},
+  booktitle = 	 {Proceedings of the 43rd International Conference on Machine Learning},
+  pages = 	 {32860--32875},
+  year = 	 {2026},
+  editor = 	 {Zhang, Tong and Dudik, Miroslav and Jaggi, Martin and Agarwal, Alekh and Li, Sharon and Schuurmans, Dale and Zhu, Jerry and Berkenkamp, Felix and Dong, Hanze and Bietti, Alberto},
+  volume = 	 {306},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {06--11 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v306/main/assets/gan26b/gan26b.pdf},
+  url = 	 {https://proceedings.mlr.press/v306/gan26b.html},
+  abstract = 	 {Accurate long-horizon vessel trajectory prediction remains challenging due to compounded uncertainty from complex navigation behaviors and environmental factors. Existing methods often struggle to maintain global directional consistency, leading to drifting or implausible trajectories when extrapolated over long time horizons. To address this issue, we propose a semantic-key-point-conditioned trajectory modeling framework, in which future trajectories are predicted by conditioning on a high-level Next Key Point (NKP) that captures navigational intent. This formulation decomposes long-horizon prediction into global semantic decision-making and local motion modeling, effectively restricting the support of future trajectories to semantically feasible subsets. To efficiently estimate the NKP prior from historical observations, we adopt a pretrain-finetune strategy. Extensive experiments on real-world AIS data demonstrate that the proposed method consistently outperforms state-of-the-art approaches, particularly for long travel durations, directional accuracy, and fine-grained trajectory prediction.}
 }
 ```

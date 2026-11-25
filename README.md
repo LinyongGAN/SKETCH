@@ -1,7 +1,7 @@
 # SKETCH: Semantic Key-Point Conditioning for Long-Horizon Vessel Trajectory Prediction
 
 <div>
-    <a href="https://arxiv.org/abs/2601.18537"><img src="https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg"></a>
+    <a href="https://arxiv.org/abs/2601.18537"><img src="https://img.shields.io/badge/arXiv-Paper-green.svg"></a>
     <a href="https://github.com/LinyongGAN/SKETCH"><img src="https://img.shields.io/badge/github-repo-blue?logo=github"></a>
     <a href="LICENSE"><img src="https://img.shields.io/badge/LICENSE-MIT-red"></a>
     </div>
@@ -30,7 +30,7 @@ Run the bash code below:
 ```bash
 conda create -n SKETCH python=3.9
 conda activate SKETCH
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 ### Evaluation
@@ -110,7 +110,7 @@ We utilized the [MiniMind Model](https://github.com/jingyaogong/minimind) as the
 ```bibtex
 @InProceedings{pmlr-v306-gan26b,
   title = 	 {{SKETCH}: Semantic Key-Point Conditioning for Long-Horizon Vessel Trajectory Prediction},
-  author =       {Gan, Linyong and Li, Zimo and Xu, Wenxin and Xingjian, Li and Huang, Jianhua Z. and Tu, Enmei and Chen, Shuhang},
+  author =       {Gan, Linyong and Li, Zimo and Xu, Wenxin and Li, Xingjian and Huang, Jianhua Z. and Tu, Enmei and Chen, Shuhang},
   booktitle = 	 {Proceedings of the 43rd International Conference on Machine Learning},
   pages = 	 {32860--32875},
   year = 	 {2026},
